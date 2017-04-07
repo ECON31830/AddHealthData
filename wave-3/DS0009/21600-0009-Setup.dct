@@ -1,0 +1,37 @@
+dictionary {
+
+*****************************************************************
+* STATA DICTIONARY FOR ICPSR 21600
+* NATIONAL LONGITUDINAL STUDY OF ADOLESCENT TO ADULT HEALTH
+* (ADD HEALTH), 1994-2008 [PUBLIC USE]
+* (DATASET 0009: WAVE III: IN-HOME QUESTIONNAIRE, PUBLIC
+* USE SAMPLE (SECTION 17: RELATIONSHIPS))
+*
+* Warning: Edit this file at your own risk
+*
+*****************************************************************
+
+_lines(1)
+
+_line(1)
+
+_column(1)     str8  AID                %8s    "RESPONDENT IDENTIFIER"
+_column(9)     int   RRELNO   :RRELNO   %2f    "S17 RELATIONSHIP NUMBER-W3"
+_column(11)    int   H3TR1    :H3TR1    %1f    "S17Q1 RELATIONSHIP CURRENT?-W3"
+_column(12)    int   H3TR2    :H3TR2    %1f    "S17Q2 RELATIONSHIP >= 3 MONTHS?-W3"
+_column(13)    int   H3TR3    :H3TR3    %1f    "S17Q3 SEX OF PARTNER-W3"
+_column(14)    int   H3TR4    :H3TR4    %1f    "S17Q4 P OLDER/YOUNGER/SAME AGE AS R-W3"
+_column(15)    int   H3TR5    :H3TR5    %2f    "S17Q5 # YEARS P OLDER/YOUNGER THAN R-W3"
+_column(17)    int   PAGE               %2f    "S17 PARTNER'S AGE AT INTERVIEW-W3"
+_column(19)    int   H3TR6    :H3TR6    %1f    "S17Q6 RACE OF PARTNER-W3"
+_column(20)    int   H3TR7    :H3TR7    %1f    "S17Q7 PARTNER HISPANIC?-W3"
+_column(21)    int   H3TR8    :H3TR8    %1f    "S17Q8 SEX IN RELATIONSHIP?-W3"
+_column(22)    int   H3TR9    :H3TR9    %1f    "S17Q9 PREGNANCY IN RELATIONSHIP?-W3"
+_column(23)    int   H3TR10   :H3TR10   %2f    "S17Q10 # PREGNANCIES IN RELATIONSHIP-W3"
+_column(25)    int   H3TR11   :H3TR11   %1f    "S17Q11 COHABITATION IN RELATIONSHIP?-W3"
+_column(26)    int   H3TR12   :H3TR12   %1f    "S17Q12 MARRIAGE IN RELATIONSHIP?-W3"
+_column(27)    int   H3TR13   :H3TR13   %1f    "S17Q13 ADOPTION IN RELATIONSHIP?-W3"
+_column(28)    int   H3TR14   :H3TR14   %1f    "S17Q14 R&PARTNER AT SAME SCHOOL?-W3"
+_column(29)    int   SXORDER  :SXORDER  %2f    "S17 ORDER AMONG SEXUAL RELATIONSHIPS-W3"
+_column(31)    int   CP       :CP       %1f    "S17 ELIGIBLE FOR COUPLES SAMPLE-W3"
+}

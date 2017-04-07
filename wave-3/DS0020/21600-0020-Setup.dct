@@ -1,0 +1,26 @@
+dictionary {
+
+*****************************************************************
+* STATA DICTIONARY FOR ICPSR 21600
+* NATIONAL LONGITUDINAL STUDY OF ADOLESCENT TO ADULT HEALTH
+* (ADD HEALTH), 1994-2008 [PUBLIC USE]
+* (DATASET 0020: WAVE III: PEABODY PICTURE VOCABULARY TEST
+* (PVT), PUBLIC USE)
+*
+* Warning: Edit this file at your own risk
+*
+*****************************************************************
+
+_lines(1)
+
+_line(1)
+
+_column(1)     str8  AID                %8s    "RESPONDENT IDENTIFIER"
+_column(9)     int   AH_RAW   :AH_RAW   %3f    "RAW AH_PVT SCORE"
+_column(12)    int   PVTPCT3  :PVTPCT3  %3f    "CROSS-SECT/LONG PVT PERCENTILE RANK-W3"
+_column(15)    int   PVTSTD3C :PVTSTD3C %3f    "CROSS-SECTIONAL STANDARDIZED SCORE-W3"
+_column(18)    int   PVTSTD3L :PVTSTD3L %3f    "LONGITUDINAL STANDARDIZED SCORE-W3"
+_column(21)    int   PVTPCT1C           %3f    "CROSS-SECTIONAL PVT PERCENTILE RANK-W1"
+_column(24)    int   PVTPCT1L           %3f    "LONGITUDINAL PVT PERCENTILE RANK-W1"
+_column(27)    int   PVTSTD1            %3f    "CROSS-SECT/LONG PVT STANDRDIZED SCORE-W1"
+}

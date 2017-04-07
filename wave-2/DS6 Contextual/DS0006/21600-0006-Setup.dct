@@ -1,0 +1,49 @@
+dictionary {
+
+*****************************************************************
+* STATA DICTIONARY FOR ICPSR 21600
+* NATIONAL LONGITUDINAL STUDY OF ADOLESCENT TO ADULT HEALTH
+* (ADD HEALTH), 1994-2008 [PUBLIC USE]
+* (DATASET 0006: WAVE II: PUBLIC USE CONTEXTUAL DATABASE)
+*
+* Warning: Edit this file at your own risk
+*
+*****************************************************************
+
+_lines(1)
+
+_line(1)
+
+_column(1)     str8  AID                %8s    "RESPONDENT IDENTIFIER"
+_column(9)     int   MATCH    :MATCH    %1f    "Geocode Match Indicator"
+_column(10)    int   MOVER    :MOVER    %1f    "Mover Indicator: Respondent Moved Between Wave I and Wave II"
+_column(11)    int   BST90P01 :BST90P01 %1f    "Urbanicity Code (Urban/Not Urban)"
+_column(12)    int   BST90P02 :BST90P02 %1f    "Modal Race"
+_column(13)    double BST90P03 :BST90P03 %8.3f  "Dispersion in Race Composition"
+_column(21)    int   BST90P04 :BST90P04 %1f    "Prop Hispanic (Low/Med/High/Very High)"
+_column(22)    int   BST90P05 :BST90P05 %1f    "Sex Composition (Male/Balanced/Female)"
+_column(23)    int   BST90P06 :BST90P06 %2f    "Median Age"
+_column(25)    double BST90P07 :BST90P07 %8.3f  "Dispersion in Age Distribution"
+_column(33)    int   BST90P08 :BST90P08 %1f    "Modal Marital Status"
+_column(34)    double BST90P09 :BST90P09 %8.3f  "Dispersion in Marital Status"
+_column(42)    int   BST90P10 :BST90P10 %1f    "Prop Children (Low/Medium/High)"
+_column(43)    int   BST90P11 :BST90P11 %1f    "Modal Migration Status"
+_column(44)    double BST90P12 :BST90P12 %8.3f  "Dispersion in Migration Status"
+_column(52)    int   BST90P13 :BST90P13 %1f    "Modal Household Type"
+_column(53)    double BST90P14 :BST90P14 %8.3f  "Dispersion in Household Type"
+_column(61)    long  BST90P15 :BST90P15 %6f    "Median Household Income in 1989 (Dollars)"
+_column(67)    double BST90P16 :BST90P16 %8.3f  "Dispersion in Household Income in 1989"
+_column(75)    long  BST90P17 :BST90P17 %6f    "Median Family Income in 1989 (Dollars)"
+_column(81)    double BST90P18 :BST90P18 %8.3f  "Dispersion in Family Income in 1989"
+_column(89)    int   BST90P19 :BST90P19 %1f    "Proportion Persons with Below Poverty-Level Income in 1989"
+_column(90)    int   BST90P20 :BST90P20 %1f    "Modal Educational Attainment of Individuals Aged 25 Years and Over"
+_column(91)    double BST90P21 :BST90P21 %8.3f  "Disperson in Educational Attainment of Individuals Aged 25 Years and Over"
+_column(99)    int   BST90P22 :BST90P22 %1f    "Proportion Females Aged 16 Years and Over in Civilian Labor Force"
+_column(100)   int   BST90P23 :BST90P23 %1f    "Unemployment Rate (Low/Medium/High)"
+_column(101)   int   BST90P24 :BST90P24 %1f    "Modal Occupation Type for Employed Person 16 Years and Over"
+_column(102)   double BST90P25 :BST90P25 %8.3f  "Dispersion in Occupation Type for Employed Persons 16 Years and Over"
+_column(110)   int   BST90P26 :BST90P26 %1f    "Tenure of Occupied Housing Units"
+_column(111)   int   BST90P27 :BST90P27 %1f    "Proportion Occupied Housing Units Moved into Between 1985 and March 1990"
+_column(112)   long  BST90P28 :BST90P28 %6f    "Median Housing Value of Owner-Occupied Housing Units (Dollars)"
+_column(118)   double BST90P29 :BST90P29 %8.3f  "Dispersion in Value of Specified Owner-Occupied Housing Units"
+}

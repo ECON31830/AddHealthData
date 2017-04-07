@@ -1,0 +1,21 @@
+dictionary {
+
+*****************************************************************
+* STATA DICTIONARY FOR ICPSR 21600
+* NATIONAL LONGITUDINAL STUDY OF ADOLESCENT TO ADULT HEALTH
+* (ADD HEALTH), 1994-2008 [PUBLIC USE]
+* (DATASET 0021: WAVE III: PUBLIC IN-HOME WEIGHTS)
+*
+* Warning: Edit this file at your own risk
+*
+*****************************************************************
+
+_lines(1)
+
+_line(1)
+
+_column(1)     str8  AID                %8s    "RESPONDENT IDENTIFIER"
+_column(9)     int   CLUSTER2           %3f    "SAMPLE CLUSTER"
+_column(12)    double GSWGT3             %10.4f "POSTSTRAT GS LONGITUDINAL WGT-W3"
+_column(22)    double GSWGT3_2           %10.4f "POSTSTRAT GS CROSS-SECTIONAL WGT-W3"
+}

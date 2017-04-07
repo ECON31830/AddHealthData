@@ -1,0 +1,35 @@
+dictionary {
+
+*****************************************************************
+* STATA DICTIONARY FOR ICPSR 21600
+* NATIONAL LONGITUDINAL STUDY OF ADOLESCENT TO ADULT HEALTH
+* (ADD HEALTH), 1994-2008 [PUBLIC USE]
+* (DATASET 0025: WAVE IV: IN-HOME QUESTIONNAIRE, PUBLIC USE
+* SAMPLE (SECTION 18: PREGNANCY TABLE))
+*
+* Warning: Edit this file at your own risk
+*
+*****************************************************************
+
+_lines(1)
+
+_line(1)
+
+_column(1)     str8  AID                %8s    "RESPONDENT IDENTIFIER"
+_column(9)     int   PTNR_ID            %2f    "PARTNER ID -W4"
+_column(11)    int   PRGNO              %2f    "PREGNANCY NUMBER WITHIN RELATIONSHIP-W4"
+_column(13)    int   H4PG1    :H4PG1    %2f    "S18Q1 PREGNANCY OUTCOME-W4"
+_column(15)    int   H4PG2Y   :H4PG2Y   %4f    "S18Q2 YEAR CURRENT PREGNANCY DUE-W4"
+_column(19)    int   H4PG3Y   :H4PG3Y   %4f    "S18Q3 YEAR PREGNANCY ENDED-W4"
+_column(23)    int   H4PG5    :H4PG5    %2f    "S18Q5 # LIVE BIRTH FROM PREGNANCY-W4"
+_column(25)    int   H4PG6    :H4PG6    %1f    "S18Q6 BABIES FRATERNAL/IDENTICAL?-W4"
+_column(26)    int   H4PG7    :H4PG7    %1f    "S18Q7 BIRTH CONTROL BEFORE PREGNANCY-W4"
+_column(27)    int   H4PG8    :H4PG8    %1f    "S18Q8 WANT CHILD BEFORE PREGNANCY-W4"
+_column(28)    int   H4PG9    :H4PG9    %1f    "S18Q9 MARRIED AT TIME OF PREG/BIRTH-W4"
+_column(29)    int   H4PG10   :H4PG10   %1f    "S18Q10 LIVING TOGETHER AT PREG/BIRTH-W4"
+_column(30)    int   H4PG11   :H4PG11   %2f    "S18Q11 RELATIONSHP TIME OF PREG/BIRTH-W4"
+_column(32)    int   H4PG12   :H4PG12   %1f    "S18Q12 PRENATAL CARE DURING PREGNANCY-W4"
+_column(33)    int   H4PG13   :H4PG13   %2f    "S18Q13 WEEKS PREG 1ST PRENATAL VISIT-W4"
+_column(35)    int   H4PG14   :H4PG14   %2f    "S18Q14 FREQ. SMOKE CIGARETTE DUR PREG-W4"
+_column(37)    int   H4PG15   :H4PG15   %1f    "S18Q15 FREQ. ALCOHOL DRINKS DUR PREG-W4"
+}

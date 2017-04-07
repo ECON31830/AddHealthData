@@ -1,0 +1,21 @@
+dictionary {
+
+*****************************************************************
+* STATA DICTIONARY FOR ICPSR 21600
+* NATIONAL LONGITUDINAL STUDY OF ADOLESCENT TO ADULT HEALTH
+* (ADD HEALTH), 1994-2008 [PUBLIC USE]
+* (DATASET 0017: WAVE III: PUBLIC USE GRADUATION DATA)
+*
+* Warning: Edit this file at your own risk
+*
+*****************************************************************
+
+_lines(1)
+
+_line(1)
+
+_column(1)     str8  AID                %8s    "RESPONDENT IDENTIFIER"
+_column(9)     str2  EREXITST           %2s    "HIGH SCHOOL EXIT STATUS"
+_column(11)    int   ERGRADM  :ERGRADM  %2f    "HIGH SCHOOL GRADUATION MONTH"
+_column(13)    int   ERGRADY  :ERGRADY  %4f    "HIGH SCHOOL GRADUATION YEAR"
+}

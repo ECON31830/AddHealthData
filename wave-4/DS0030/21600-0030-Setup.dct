@@ -1,0 +1,31 @@
+dictionary {
+
+*****************************************************************
+* STATA DICTIONARY FOR ICPSR 21600
+* NATIONAL LONGITUDINAL STUDY OF ADOLESCENT TO ADULT HEALTH
+* (ADD HEALTH), 1994-2008 [PUBLIC USE]
+* (DATASET 0030: WAVE IV: BIOMARKERS, LIPIDS)
+*
+* Warning: Edit this file at your own risk
+*
+*****************************************************************
+
+_lines(1)
+
+_line(1)
+
+_column(1)     str8  AID                %8s    "RESPONDENT IDENTIFIER"
+_column(9)     int   TG       :TG       %2f    "TRIGLYCERIDES (TG) DECILE"
+_column(11)    int   TG_FLG   :TG_FLG   %1f    "TRIGLYCERIDES (TG) MEASUREMENT METHOD"
+_column(12)    int   TC       :TC       %2f    "TOTAL CHOLESTEROL (TC) DECILE"
+_column(14)    int   TC_FLG   :TC_FLG   %1f    "TOTAL CHOLESTEROL (TC) MEASUREMENT METHOD"
+_column(15)    int   HDL      :HDL      %2f    "HIGH-DENSITY LIPOPROTEIN CHOLESTEROL (HDL-C) DECILE"
+_column(17)    int   HDL_FLG  :HDL_FLG  %1f    "HIGH-DENSITY LIPOPROTEIN CHOLESTEROL (HDL-C) MEASUREMENT METHOD"
+_column(18)    int   LDL      :LDL      %2f    "LOW-DENSITY LIPOPROTEIN CHOLESTEROL (LDL-C) DECILE"
+_column(20)    int   NON_HDL  :NON_HDL  %2f    "NON-HIGH-DENSITY LIPOPROTEIN CHOLESTEROL (non-HDL-C)"
+_column(22)    int   TC_HDL   :TC_HDL   %2f    "TOTAL CHOLESTEROL TO HIGH DENSITY LIPOPROTEIN CHOLESTEROL RATIO (TC:HDL-C) DECILE"
+_column(24)    int   C_MED2   :C_MED2   %1f    "ANTIHYPERLIPIDEMIC MEDICATION USE"
+_column(25)    int   C_JOINT2 :C_JOINT2 %1f    "JOINT CLASSIFICATION OF SELF-REPORTED HISTORY OF HYPERLIPIDERMIA AND ANTIHYPERLIPIDEMIC MEDICATION USE"
+_column(26)    float FASTTIME           %4.1f  "HOURS SINCE LAST ATE"
+_column(30)    int   FAST_LIP :FAST_LIP %1f    "FASTED FOR NINE HOURS OR MORE"
+}

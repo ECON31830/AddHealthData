@@ -1,0 +1,20 @@
+dictionary {
+
+*****************************************************************
+* STATA DICTIONARY FOR ICPSR 21600
+* NATIONAL LONGITUDINAL STUDY OF ADOLESCENT TO ADULT HEALTH
+* (ADD HEALTH), 1994-2008 [PUBLIC USE]
+* (DATASET 0018: WAVE III: PUBLIC USE EDUCATION DATA WEIGHTS)
+*
+* Warning: Edit this file at your own risk
+*
+*****************************************************************
+
+_lines(1)
+
+_line(1)
+
+_column(1)     str8  AID                %8s    "RESPONDENT IDENTIFIER"
+_column(9)     double PTWGT3             %15.9f "TRANSCRIPT LONGITUDINAL WEIGHT-PUBLIC"
+_column(24)    double PTWGT3_2           %15.9f "TRANSCRIPT CROSS-SECTIONAL WEIGHT-PUBLIC"
+}

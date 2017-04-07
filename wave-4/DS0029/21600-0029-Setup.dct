@@ -1,0 +1,28 @@
+dictionary {
+
+*****************************************************************
+* STATA DICTIONARY FOR ICPSR 21600
+* NATIONAL LONGITUDINAL STUDY OF ADOLESCENT TO ADULT HEALTH
+* (ADD HEALTH), 1994-2008 [PUBLIC USE]
+* (DATASET 0029: WAVE IV: BIOMARKERS, MEASURES OF GLUCOSE
+* HOMEOSTASIS)
+*
+* Warning: Edit this file at your own risk
+*
+*****************************************************************
+
+_lines(1)
+
+_line(1)
+
+_column(1)     str8  AID                %8s    "RESPONDENT IDENTIFIER"
+_column(9)     int   GLUCOSE  :GLUCOSE  %3f    "GLUCOSE (MG/DL)"
+_column(12)    float HBA1C    :HBA1C    %4.1f  "HEMOGLOBIN A1c (%)"
+_column(16)    int   CONVERT  :CONVERT  %1f    "HbA1c INTER-CONVERSION FLAG"
+_column(17)    float FASTTIME           %4.1f  "HOURS SINCE LAST ATE"
+_column(21)    int   C_FGLU   :C_FGLU   %1f    "CLASSIFICATION OF FASTING GLUCOSE"
+_column(22)    int   C_NFGLU  :C_NFGLU  %1f    "CLASSIFICATION OF NON-FASTING GLUCOSE"
+_column(23)    int   C_HBA1C  :C_HBA1C  %1f    "CLASSIFICATION OF HbA1c"
+_column(24)    int   C_MED    :C_MED    %1f    "ANTI-DIABETIC MEDICATION USE"
+_column(25)    int   C_JOINT  :C_JOINT  %1f    "JOINT CLASSIFICATION OF GLUCOSE, HbA1c, SELF-REPORTED HISTORY OF DIABETES, AND ANTI-DIABETIC MEDICATION USE"
+}

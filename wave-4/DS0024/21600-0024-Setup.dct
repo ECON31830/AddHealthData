@@ -1,0 +1,26 @@
+dictionary {
+
+*****************************************************************
+* STATA DICTIONARY FOR ICPSR 21600
+* NATIONAL LONGITUDINAL STUDY OF ADOLESCENT TO ADULT HEALTH
+* (ADD HEALTH), 1994-2008 [PUBLIC USE]
+* (DATASET 0024: WAVE IV: IN-HOME QUESTIONNAIRE, PUBLIC USE
+* SAMPLE (SECTION 16C: RELATIONSHIPS))
+*
+* Warning: Edit this file at your own risk
+*
+*****************************************************************
+
+_lines(1)
+
+_line(1)
+
+_column(1)     str8  AID                %8s    "RESPONDENT IDENTIFIER"
+_column(9)     int   PTNR_ID            %2f    "PARTNER ID -W4"
+_column(11)    int   H4TR25   :H4TR25   %1f    "S16CQ25 RELATIONSHP TIME-SEGMENT TYPE-W4"
+_column(12)    int   H4TR26   :H4TR26   %1f    "S16CQ26 RELATIONSHP TIME-SEGMENT NUM-W4"
+_column(13)    int   H4TR27Y  :H4TR27Y  %4f    "S16CQ27 TIME-SEGMENT YEAR BEGAN-W4"
+_column(17)    int   H4TR28Y  :H4TR28Y  %4f    "S16CQ28 TIME-SEGMENT YEAR ENDED-W4"
+_column(21)    int   TSDURATN :TSDURATN %3f    "S16C TIME-SEGMENT DURATION IN MONTH-W4"
+_column(24)    int   H4TR29   :H4TR29   %1f    "S16CQ29 HOW MARRIAGE TO PARTNER ENDED-W4"
+}

@@ -1,0 +1,19 @@
+dictionary {
+
+*****************************************************************
+* STATA DICTIONARY FOR ICPSR 21600
+* NATIONAL LONGITUDINAL STUDY OF ADOLESCENT TO ADULT HEALTH
+* (ADD HEALTH), 1994-2008 [PUBLIC USE]
+* (DATASET 0019: WAVE III: ADD HEALTH SCHOOL WEIGHTS)
+*
+* Warning: Edit this file at your own risk
+*
+*****************************************************************
+
+_lines(1)
+
+_line(1)
+
+_column(1)     double SCHWT1             %8.3f  "INITIAL SCHOOL WEIGHT"
+_column(9)     int   CLUSTER2           %3f    "SCHOOL IDENTIFICATION NUMBER"
+}

@@ -1,0 +1,25 @@
+dictionary {
+
+*****************************************************************
+* STATA DICTIONARY FOR ICPSR 21600
+* NATIONAL LONGITUDINAL STUDY OF ADOLESCENT TO ADULT HEALTH
+* (ADD HEALTH), 1994-2008 [PUBLIC USE]
+* (DATASET 0010: WAVE III: IN-HOME QUESTIONNAIRE, PUBLIC
+* USE SAMPLE (SECTION 18: PREGNANCIES))
+*
+* Warning: Edit this file at your own risk
+*
+*****************************************************************
+
+_lines(1)
+
+_line(1)
+
+_column(1)     str8  AID                %8s    "RESPONDENT IDENTIFIER"
+_column(9)     int   RRELNO             %2f    "ROMANTIC RELATIONSHIP NUMBER"
+_column(11)    int   RPREGNO            %1f    "RELATIONSHIP PREGNANCY NUMBER"
+_column(12)    int   H3TP1    :H3TP1    %1f    "S18Q1 PREGNANCY OUTCOME-W3"
+_column(13)    int   H3TP2M   :H3TP2M   %2f    "S18Q2M MONTH PREGNANCY ENDED-W3"
+_column(15)    int   H3TP2Y             %4f    "S18Q2Y YEAR PREGNANCY ENDED-W3"
+_column(19)    int   H3TP3    :H3TP3    %2f    "S18Q3 # LIVE BIRTHS FROM PREGNANCY-W3"
+}

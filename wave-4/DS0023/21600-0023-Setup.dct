@@ -1,0 +1,32 @@
+dictionary {
+
+*****************************************************************
+* STATA DICTIONARY FOR ICPSR 21600
+* NATIONAL LONGITUDINAL STUDY OF ADOLESCENT TO ADULT HEALTH
+* (ADD HEALTH), 1994-2008 [PUBLIC USE]
+* (DATASET 0023: WAVE IV: IN-HOME QUESTIONNAIRE, PUBLIC USE
+* SAMPLE (SECTION 16B: RELATIONSHIPS))
+*
+* Warning: Edit this file at your own risk
+*
+*****************************************************************
+
+_lines(1)
+
+_line(1)
+
+_column(1)     str8  AID                %8s    "RESPONDENT IDENTIFIER"
+_column(9)     int   PTNR_ID            %2f    "PARTNER ID -W4"
+_column(11)    int   H4TR13   :H4TR13   %1f    "S16BQ13 RELATIONSHIP TYPE W/ PARTNER-W4"
+_column(12)    int   H4TR14   :H4TR14   %1f    "S16BQ14 RELATIONSHIP CURRENT?-W4"
+_column(13)    int   H4TR15   :H4TR15   %1f    "S16BQ15 # TIMES MARRIED TO PARTNER-W4"
+_column(14)    int   H4TR16   :H4TR16   %1f    "S16BQ16 EVR LIVED W/ PRTNR NT MARRIED-W4"
+_column(15)    int   H4TR17   :H4TR17   %2f    "S16BQ17 # TIMES LIVED W/ PARTNER-W4"
+_column(17)    int   H4TR18   :H4TR18   %2f    "S16BQ18 # TIMES PREGNANT W/ PARTNER-W4"
+_column(19)    int   H4TR19   :H4TR19   %1f    "S16BQ19 SEX OF PARTNER-W4"
+_column(20)    int   H4TR20   :H4TR20   %2f    "S16BQ20 PARTNER'S CURRENT AGE-W4"
+_column(22)    int   H4TR21   :H4TR21   %1f    "S16BQ21 P OLDER/YOUNGER/SAME AGE AS R-W4"
+_column(23)    int   H4TR22   :H4TR22   %2f    "S16BQ22 # YEAR P OLDER/YOUNGER THAN R-W4"
+_column(25)    int   H4TR23   :H4TR23   %1f    "S16BQ23 PARTNER HISPANIC/LATINO?-W4"
+_column(26)    int   H4TR24   :H4TR24   %2f    "S16BQ24 RACE OF PARTNER-W4"
+}

@@ -1,0 +1,57 @@
+dictionary {
+
+*****************************************************************
+* STATA DICTIONARY FOR ICPSR 21600
+* NATIONAL LONGITUDINAL STUDY OF ADOLESCENT TO ADULT HEALTH
+* (ADD HEALTH), 1994-2008 [PUBLIC USE]
+* (DATASET 0013: WAVE III: IN-HOME QUESTIONNAIRE, PUBLIC
+* USE SAMPLE (SECTION 23: CURRENT PREGNANCIES))
+*
+* Warning: Edit this file at your own risk
+*
+*****************************************************************
+
+_lines(1)
+
+_line(1)
+
+_column(1)     str8  AID                %8s    "RESPONDENT IDENTIFIER"
+_column(9)     int   RRELNO             %2f    "ROMANTIC RELATIONSHIP NUMBER"
+_column(11)    int   RPREGNO            %1f    "RELATIONSHIP PREGNANCY NUMBER"
+_column(12)    int   H3PC1    :H3PC1    %1f    "S23Q1 1 TOLD PARTNER PREGNANT-W3"
+_column(13)    int   H3PC2    :H3PC2    %2f    "S23Q2 MONTHS PREG WHEN TOLD PARTNER-W3"
+_column(15)    int   H3PC3    :H3PC3    %2f    "S23Q3 MONTH PREGNANCY IN NOW-W3"
+_column(17)    int   H3PC4    :H3PC4    %1f    "S23Q4 PRENATAL CARE DURING PREG-W3"
+_column(18)    int   H3PC5    :H3PC5    %1f    "S23Q5 PLAN HAVE PRENATAL CARE-W3"
+_column(19)    int   H3PC6    :H3PC6    %2f    "S23Q6 #PRENATAL-CARE VISITS HAD-W3"
+_column(21)    int   H3PC7    :H3PC7    %1f    "S23Q7 PARTNER GONE ANY CHECKUPS-W3"
+_column(22)    int   H3PC8    :H3PC8    %2f    "S23Q8 WHERE GO FOR PRENATAL CARE-W3"
+_column(24)    int   H3PC9A   :H3PC9A   %1f    "S23Q9A PD PREN CARE-YOUR/PARTNER INC-W3"
+_column(25)    int   H3PC9B   :H3PC9B   %1f    "S23Q9B PD PREN CARE-YOU/PARTN PARENT-W3"
+_column(26)    int   H3PC9C   :H3PC9C   %1f    "S23Q9C PD PREN CARE-PRIV INSURANCE-W3"
+_column(27)    int   H3PC9D   :H3PC9D   %1f    "S23Q9D PD PREN CARE-MEDICAID-W3"
+_column(28)    int   H3PC9E   :H3PC9E   %1f    "S23Q9E PD PREN CARE-GOV ASSISTANCE-W3"
+_column(29)    int   H3PC9F   :H3PC9F   %1f    "S23Q9F PD PREN CARE-OTHER SOURCE-W3"
+_column(30)    int   H3PC10A  :H3PC10A  %1f    "S23Q10A PD HOSP-YOUR/PARTNER INC-W3"
+_column(31)    int   H3PC10B  :H3PC10B  %1f    "S23Q10B PD HOSP-YOU/PARTN PARENT-W3"
+_column(32)    int   H3PC10C  :H3PC10C  %1f    "S23Q10C PD HOSP-PRIV INSURANCE-W3"
+_column(33)    int   H3PC10D  :H3PC10D  %1f    "S23Q10D PD HOSP-MEDICAID-W3"
+_column(34)    int   H3PC10E  :H3PC10E  %1f    "S23Q10E PD HOSP-GOV ASSISTANCE-W3"
+_column(35)    int   H3PC10F  :H3PC10F  %1f    "S23Q10F PD HOSP-OTHER SOURCE-W3"
+_column(36)    int   H3PC11   :H3PC11   %1f    "S23Q11 OFTEN DUR PREG DRINK ALCOHOL-W3"
+_column(37)    int   H3PC12   :H3PC12   %1f    "S23Q12 OFTEN DUR PREG USE DRUGS-W3"
+_column(38)    int   H3PC13   :H3PC13   %1f    "S23Q13 DUR PREG #CIGARETTES SMOKE-W3"
+_column(39)    int   H3PC14   :H3PC14   %1f    "S23Q14 YOU AND PARTNER MARRIED-W3"
+_column(40)    int   H3PC15   :H3PC15   %1f    "S23Q15 YOU & PARTN LIVING TOGETHER-W3"
+_column(41)    int   H3PC16   :H3PC16   %2f    "S23Q16 BEST DESCRIBES RELSHP PRESENT-W3"
+_column(43)    int   H3PC17   :H3PC17   %2f    "S23Q17 AGE WHEN GOT PREGNANT-W3"
+_column(45)    int   H3PC18   :H3PC18   %2f    "S23Q18 FAR IN SCHOOL WHEN GOT PREGN-W3"
+_column(47)    int   H3PC19   :H3PC19   %1f    "S23Q19 BEFORE PREG,USE BIRTH CONTROL-W3"
+_column(48)    int   H3PC20A  :H3PC20A  %2f    "S23Q20A 1ST METHOD BIRTH CONTROL USED-W3"
+_column(50)    int   H3PC20B  :H3PC20B  %2f    "S23Q20B 2ND METHOD BIRTH CONTROL USED-W3"
+_column(52)    int   H3PC20C  :H3PC20C  %2f    "S23Q20C 3RD METHOD BIRTH CONTROL USED-W3"
+_column(54)    int   H3PC21   :H3PC21   %1f    "S23Q21 MO BEF PG,BIRTH CON EVERY TIME-W3"
+_column(55)    int   H3PC22   :H3PC22   %1f    "S23Q22 WANT A CHILD BEFORE PREGNANCY-W3"
+_column(56)    int   H3PC23   :H3PC23   %1f    "S23Q23 WANT A CHILD LATER-W3"
+_column(57)    int   H3PC24   :H3PC24   %1f    "S23Q24 WANT PARTNER BE CHILD'S PARENT-W3"
+}

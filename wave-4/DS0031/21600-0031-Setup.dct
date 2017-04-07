@@ -1,0 +1,22 @@
+dictionary {
+
+*****************************************************************
+* STATA DICTIONARY FOR ICPSR 21600
+* NATIONAL LONGITUDINAL STUDY OF ADOLESCENT TO ADULT HEALTH
+* (ADD HEALTH), 1994-2008 [PUBLIC USE]
+* (DATASET 0031: WAVE IV: PUBLIC USE WEIGHTS)
+*
+* Warning: Edit this file at your own risk
+*
+*****************************************************************
+
+_lines(1)
+
+_line(1)
+
+_column(1)     str8  AID                %8s    "RESPONDENT IDENTIFIER"
+_column(9)     int   CLUSTER2           %3f    "Sample cluster"
+_column(12)    double GSWGT4             %15.9f "Post stratified untrimmed longitudinal grand sample weight"
+_column(27)    double GSWGT4_2           %15.9f "Post stratified untrimmed cross-sectional grand sample weight"
+_column(42)    double GSWGT134           %15.9f "Post stratified untrimmed longitudinal grand sample weight for Waves I, III, and IV"
+}

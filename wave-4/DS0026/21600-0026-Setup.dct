@@ -1,0 +1,35 @@
+dictionary {
+
+*****************************************************************
+* STATA DICTIONARY FOR ICPSR 21600
+* NATIONAL LONGITUDINAL STUDY OF ADOLESCENT TO ADULT HEALTH
+* (ADD HEALTH), 1994-2008 [PUBLIC USE]
+* (DATASET 0026: WAVE IV: IN-HOME QUESTIONNAIRE, PUBLIC USE
+* SAMPLE (SECTION 19: LIVE BIRTHS))
+*
+* Warning: Edit this file at your own risk
+*
+*****************************************************************
+
+_lines(1)
+
+_line(1)
+
+_column(1)     str8  AID                %8s    "RESPONDENT IDENTIFIER"
+_column(9)     int   PTNR_ID            %2f    "PARTNER ID -W4"
+_column(11)    int   PRGNO              %2f    "PREGNANCY NUMBER WITHIN RELATIONSHIP-W4"
+_column(13)    int   LBNO               %1f    "LIVE BIRTH NUMBER PER PREGNANCY-W4"
+_column(14)    int   H4LB1    :H4LB1    %1f    "S19Q1 IS BABY'S BIRTHDAY CORRECT?-W4"
+_column(15)    int   H4LB2Y   :H4LB2Y   %4f    "S19Q2 CORRECTED BABY BIRTHDAY, YEAR-W4"
+_column(19)    int   H4LB3    :H4LB3    %1f    "S19Q3 BABY BOY OR GIRL-W4"
+_column(20)    int   H4LB4    :H4LB4    %1f    "S19Q4 BABY WENT HOME W/ R-W4"
+_column(21)    int   H4LB5    :H4LB5    %2f    "S19Q5 WHY BABY NOT WENT HOME W/ R-W4"
+_column(23)    int   H4LB6P   :H4LB6P   %2f    "S19Q6 BABY BIRTH WEIGHT - LBS-W4"
+_column(25)    int   H4LB6O   :H4LB6O   %2f    "S19Q6 BABY BIRTH WEIGHT - OZS-W4"
+_column(27)    int   H4LB7    :H4LB7    %1f    "S19Q7 BABY BIRTH WEIGHT < 5.5 LBS-W4"
+_column(28)    int   H4LB8    :H4LB8    %1f    "S19Q8 BABY BORN BEFORE/ON/AFTER DUE DATE-W4"
+_column(29)    int   H4LB9W   :H4LB9W   %2f    "S19Q9 WEEKS BEFORE/AFTER DUE DATE-W4"
+_column(31)    int   H4LB9D   :H4LB9D   %3f    "S19Q9 DAYS BEFORE/AFTER DUE DATE-W4"
+_column(34)    int   H4LB10   :H4LB10   %1f    "S19Q10 BABY STILL LIVING-W4"
+_column(35)    int   H4LB11Y  :H4LB11Y  %4f    "S19Q11 YEAR BABY DIED-W4"
+}

@@ -1,0 +1,38 @@
+dictionary {
+
+*****************************************************************
+* STATA DICTIONARY FOR ICPSR 21600
+* NATIONAL LONGITUDINAL STUDY OF ADOLESCENT TO ADULT HEALTH
+* (ADD HEALTH), 1994-2008 [PUBLIC USE]
+* (DATASET 0014: WAVE III: IN-HOME QUESTIONNAIRE, PUBLIC
+* USE SAMPLE (SECTION 24: LIVE BIRTHS))
+*
+* Warning: Edit this file at your own risk
+*
+*****************************************************************
+
+_lines(1)
+
+_line(1)
+
+_column(1)     str8  AID                %8s    "RESPONDENT IDENTIFIER"
+_column(9)     int   RRELNO             %2f    "ROMANTIC RELATIONSHIP NUMBER"
+_column(11)    int   RPREGNO            %1f    "RELATIONSHIP PREGNANCY NUMBER"
+_column(12)    int   BIRTHNO  :BIRTHNO  %1f    "PREGNANCY BIRTH NUMBER"
+_column(13)    int   H3LB1    :H3LB1    %1f    "S24Q1 BABY GO HOME W/YOU-W3"
+_column(14)    int   H3LB2    :H3LB2    %2f    "S24Q2 WHY BABY NOT GO HOME W/YOU-W3"
+_column(16)    int   H3LB3    :H3LB3    %1f    "S24Q3 BABY BOY OR GIRL-W3"
+_column(17)    int   H3LB4    :H3LB4    %1f    "S24Q4 NAME THIS BABY-W3"
+_column(18)    int   H3LB5A   :H3LB5A   %2f    "S24Q5A BABY BIRTH WT - LBS-W3"
+_column(20)    int   H3LB5B   :H3LB5B   %2f    "S24Q5B BABY BIRTH WT - OZS-W3"
+_column(22)    int   H3LB6    :H3LB6    %2f    "S24Q6 INCHES LONG BABY BIRTH-W3"
+_column(24)    int   H3LB7    :H3LB7    %1f    "S24Q7 BABY BORN TOO EARLY-W3"
+_column(25)    int   H3LB8    :H3LB8    %2f    "S24Q8 HOW MANY WEEKS EARLY-W3"
+_column(27)    int   H3LB9    :H3LB9    %1f    "S24Q9 WAS PARTNER PRESENT AT BIRTH-W3"
+_column(28)    int   H3LB10   :H3LB10   %1f    "S24Q10 BABY MAJOR HEALTH PROB BIRTH-W3"
+_column(29)    int   H3LB11   :H3LB11   %1f    "S24Q11 BABY STILL LIVING-W3"
+_column(30)    int   H3LB12M  :H3LB12M  %2f    "S24Q12A MONTH BABY DIED-W3"
+_column(32)    int   H3LB12Y  :H3LB12Y  %4f    "S24Q12B YEAR BABY DIED-W3"
+_column(36)    int   H3LB13   :H3LB13   %1f    "S24Q13 NAME ON BIRTH CERTIFICATE-W3"
+_column(37)    int   H3LB14   :H3LB14   %1f    "S24Q14 DID BABY GET PARTNER LAST NAME-W3"
+}
